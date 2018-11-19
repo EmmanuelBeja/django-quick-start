@@ -1,6 +1,8 @@
 # functional tests are also called end to end tests
 # let us see how the application functions from a user's point of view
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
 import unittest
 
 class NewVisitorTest(unittest.TestCase):
